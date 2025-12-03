@@ -1,0 +1,38 @@
+# Build outputs
+Debug/
+Release/
+*.out
+*.elf
+*.hex
+*.bin
+
+# Object files
+*.o
+*.obj
+
+# Linker output
+*.map
+*.lst
+
+# Compiler generated
+*.d
+*.dep
+
+# Code Composer Studio
+.launches/
+.config/
+.settings/
+targetConfigs/
+*.cmd
+*_startup_*.c
+driverlib/
+
+# Eclipse
+.cproject
+.project
+.metadata/
+
+# Temporary files
+*.tmp
+*.bak
+*~
